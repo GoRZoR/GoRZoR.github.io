@@ -1,0 +1,75 @@
+.banner_ac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0 0 15%;
+}
+.banner_ac-f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 15%;
+}
+.activities{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .activity-left .img_slider{
+    margin: 0;
+    position: unset;
+    padding: 0%;
+  }
+  .activity-right .img_slider{
+    margin: 0;
+    position: unset;
+    padding: 0%;
+  }
+  .activity-left .img_slider .slick-dots{
+    width: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .activity-right .img_slider .slick-dots{
+    width: auto;
+    bottom: auto;
+    left: auto;
+  }
+  .img_slider .slick-dots li button:before{
+    font-size: 16px;
+    color: #f1d8cd;
+  }
+  .img_slider .slick-dots li{
+    margin:  0 3px;
+  }
+  .img_slider .slick-dots li.slick-active button::before{
+    opacity: 1;
+    color: #f1d8cd;
+  }
+  .activity-left, .activity-right{
+    width: 50%;
+  }
+  .activity-left img{
+    width: 70%;
+  }
+  .activity-right img{
+    width:70%;
+}
+  h1{
+    color: #f5a243;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+  h2{
+      color: aliceblue;
+      font-size: 25px;
+      margin-bottom: 3px;
+  }
+  p{
+      color: aliceblue;
+      font-size: 18px;
+      margin-bottom: 5px;
+  }
+  

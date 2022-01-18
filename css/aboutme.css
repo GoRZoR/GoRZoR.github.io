@@ -1,0 +1,11 @@
+.imgsec{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 70px;
+    padding-bottom: 0%;
+}
+.imgsec img{
+    width: 930px;
+    height: 1315.5px;
+}

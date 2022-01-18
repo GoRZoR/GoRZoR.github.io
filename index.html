@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyPort</title>
+        <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-main">JiRaPat.</a>
+        <ul>
+            <li><a href="./works.html">Works</a></li>
+            <li><a href="./activities.html">Activities</a></li>
+            <li><a href="./aboutme.html">About me</a></li>
+        </ul>
+    </header>
+    <section class="banner1"></section>
+    <div class="card">
+        <div class="circle"></div>
+        <div class="content">
+            <h1>About Me</h1>
+            <p>Hello!I'm Jirapat Chutimantapong.<br>
+                I'm 18 and from Mahasarakham,Thailand.<br>
+                I'm studying ESMTE Program (Math-Sci)<br> 
+                at Sarakhampittayakhom school.
+            </p>
+            <a href="./aboutme.html">More ></a>
+        </div>
+        <img src="./img/profile.png">
+    </div>
+    <footer>
+        <ul class="contact">
+            <h3>CONTACT   :</h3>
+            <li><a href="https://www.facebook.com/gim.chutimontapong"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/_gimji_"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="mailto:gimjirapat@gmail.com"><ion-icon name="mail-outline"></ion-icon></ion-icon></a></li>
+        </ul>
+    </footer>
+        <script type="text/javascript">
+            window.addEventListener("scroll",function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky",window.scrollY >0);})</script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
+</body>                        
+</html>
